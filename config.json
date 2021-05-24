@@ -1,0 +1,14 @@
+{
+    "url": "http://127.0.0.1:4567",
+    "secret": "ac52d6c0-0646-4952-96cd-3a8f8fc607db",
+    "database": "mongo",
+    "port": "4567",
+    "mongo": {
+        "host": "bkqdjcvgi6fy82y-mongodb.services.clever-cloud.com",
+        "port": "27017",
+        "username": "uzuogylghihuidrsybua",
+        "password": "dBYIYqwLIIVUW8qftkuF",
+        "database": "bkqdjcvgi6fy82y",
+        "uri": ""
+    }
+}
