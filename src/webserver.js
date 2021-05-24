@@ -227,7 +227,8 @@ function setupCookie() {
 }
 
 async function listen() {
-	let port = nconf.get('port');
+	// let port = nconf.get('port');
+	let port = process.env.PORT || nconf.get('port');
 	const isSocket = isNaN(port) && !Array.isArray(port);
 	const socketPath = isSocket ? nconf.get('port') : '';
 
